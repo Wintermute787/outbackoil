@@ -1,0 +1,123 @@
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.main-box {
+  height: 15rem;
+  width: 40rem;
+  /* border: 2px solid rgb(106, 162, 51); */
+  border: 2px solid grey;
+  display: flex;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.green {
+  border: 2px solid rgb(106, 162, 51);
+}
+
+.main-checkbox {
+  border-radius: 2px;
+  border: 2px solid #878787;
+  margin-right: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.checkbox-green {
+  background-color: rgb(106, 162, 51);
+}
+
+.checkbox-marker {
+  color: white;
+}
+
+.main-box__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  width: 33%;
+}
+
+.main-box__title {
+  margin-top: 2rem;
+  font-weight: 600;
+  color: red;
+  font-size: 22px;
+  margin-left: 20%;
+}
+
+.main-box__info {
+  margin-bottom: 2rem;
+}
+
+.main-box__bottle {
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+.main-box__price {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: -4px;
+  margin-left: 33%;
+}
+
+.price-span {
+  color: black;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.main-box__description-1 {
+  margin-left: 33%;
+  font-size: 11px;
+}
+
+.main-box__description-2 {
+  margin-left: 33%;
+  font-size: 11px;
+}
+
+.main-box__footer {
+  color: red;
+  font-weight: bold;
+  font-size: 11px;
+  margin-left: 33%;
+}
+
+.main-box__middle-image {
+  width: 290px;
+  height: 193px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.main-box__right {
+  margin-left: 3rem;
+  height: 50px;
+  background-color: red;
+  font-size: 9px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 50px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: white;
+  text-align: center;
+}
